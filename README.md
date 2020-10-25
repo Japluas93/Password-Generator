@@ -1,16 +1,2 @@
 # Password-Generator
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+Hello! So this is a password application I created for an employee at my office. They wanted an application that would randomly generate a password that meets a certain criteria and give them greater security. When the user clicks the button to generate a password they are presented with a prompt that makes them chosse the character length for their password. After choosing the character lenght the user is then presented with a series of prompts for password criteria they would like to include in their password. The user has some flexibilty with what they want to include, they are only required to choose one of the character conditions. Once the user chooses the criteria they would like to include, their inputs will be validated and to make sure that at least one character type is selected. After all prompts are answered then a password is generated that matches the selected criteria. The password is then displayed to the page.
