@@ -8,7 +8,7 @@ var validSpecial = "!@#$%^&*()-=+?><"
 // WHEN I click the button to generate a password
 generateBtn.addEventListener("click", function(){
   var passwordLength = 0
-  while(passwordLength < 7 || passwordLength > 128) {
+  while(passwordLength < 8 || passwordLength > 128) {
     var passwordLength = prompt("Your password must contain at least 8 characters, and it cannot exceed 128 characters");
   }
   console.log(passwordLength);
@@ -38,6 +38,7 @@ generateBtn.addEventListener("click", function(){
       validchar += validSpecial 
     }
   console.log(validchar)
+  var password = ""
   for (let i=1; i <= passwordLength; i++){
   var index = Math.floor(Math.random()*validchar.length);
   password += validchar[index]
